@@ -2,7 +2,7 @@
 
 ## Descrição
 
-+ O uso das funções beginShape e endShape permite criar formulários mais complexos. O beginShape começa a gravar vértices para uma forma e o endShape finaliza a mesma. 
++ O uso das funções beginShape e endShape permite criar formulários mais complexos. O beginShape inicia a modulação das vértices para gerar uma forma e o endShape acrescentado ao fim da programação finaliza a mesma. 
 + O valor do parâmetro indica quais tipos de formas criar a partir dos vértices fornecidos. Sem o modo especificado, a forma pode ser qualquer polígono irregular. Os parâmetros disponíveis para beginShape são POINTS, LINES, TRIANGLES, TRIANGLE_FAN, TRIANGLE_STRIP, QUADS e QUAD_STRIP. 
 
 ## Passo a Passo
