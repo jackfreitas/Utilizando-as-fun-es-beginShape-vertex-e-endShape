@@ -34,11 +34,16 @@ def draw():
     vertex(+M, -M)
     vertex( 0, -m)
     endShape(CLOSE) #Fechamento da forma
-    ```
-    
+```
 ## Observações
     
 + Transformações como translate, rotate e scale não funcionam em beginShape. Também não é possível usar outras formas, como elipse ou retangulo dentro de beginShape.
 + As configurações do renderizador P3D permitem que as configurações de traço e preenchimento sejam alteradas por vértice, mas o P2D e o renderizador padrão não. 
 + Configurações como strokeWeight, strokeCap e strokeJoin não podem ser alteradas enquanto estiverem dentro de um bloco beginShape/ endShape com qualquer renderizador.
+
+    
+    
+    
+    
+
 
