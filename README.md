@@ -44,7 +44,6 @@ endShape(CLOSE) #Fechamento da forma
 ## OBSERVAÇÕES
 
 + Transformações como translate , rotate e scale não funcionam em beginShape. Também não é possível usar outras formas, como elipse ou retangulo dentro de beginShape.
-
-As configurações do renderizador P3D permitem que as configurações de traço e preenchimento sejam alteradas por vértice, mas o P2D e o renderizador padrão não.
++ As configurações do renderizador P3D permitem que as configurações de traço e preenchimento sejam alteradas por vértice, mas o P2D e o renderizador padrão não.
 Configurações como strokeWeight , strokeCap e strokeJoin não podem ser alteradas enquanto estiverem dentro de um bloco beginShape / endShape com qualquer renderizador.
 
